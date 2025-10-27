@@ -998,4 +998,19 @@ class FixedAddonsList(Enum):
         compatible_mv_locale=[],
         dependent_modnames=[],
         priority=3001
+
     )
+    SpeedUI_RU = Mod(
+        id='SpeedUI_RU',
+        modname='SpeedUI',
+        download_targets={
+            'https://drive.usercontent.google.com/u/1/uc?id=1--0slTafbTi_5gsc1jFGjclO-rkbnlot&export=download&confirm=xxx':
+                'Speed-UI.zip'
+        },
+        version='2.0',
+        locale='ru',
+        metadata_url='https://raw.githubusercontent.com/ftl-mv-translation/mvinstaller/main/addon_metadata/SpeedUI_RU.xml',
+        compatible_mv_locale=['ru'],
+        dependent_modnames=[],
+        priority=3002
+        )
